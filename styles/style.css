@@ -1,0 +1,204 @@
+/* ==========================================================
+   HOSPITAL AI MANAGEMENT SYSTEM
+   Professional White Theme
+========================================================== */
+
+/* ---------------- Main App ---------------- */
+
+.stApp {
+    background: #F8FAFC;
+    color: #1F2937;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------------- Hide Streamlit ---------------- */
+
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+/* ---------------- Sidebar ---------------- */
+
+section[data-testid="stSidebar"] {
+    background: #FFFFFF;
+    border-right: 1px solid #E5E7EB;
+    box-shadow: 2px 0px 10px rgba(0,0,0,0.05);
+}
+
+section[data-testid="stSidebar"] * {
+    color: #1F2937 !important;
+}
+
+/* ---------------- Buttons ---------------- */
+
+.stButton>button {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: #2563EB;
+    color: white !important;
+    padding: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background: #1D4ED8;
+}
+
+/* ---------------- Inputs ---------------- */
+
+.stTextInput input,
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 10px !important;
+}
+
+/* ---------------- Metric Cards ---------------- */
+
+.metric-card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 22px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+
+    transition: .25s;
+}
+
+.metric-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+
+}
+
+.metric-title {
+
+    font-size:16px;
+
+    color:#64748B;
+
+    font-weight:600;
+
+}
+
+.metric-value {
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:#111827;
+
+    margin-top:10px;
+
+}
+
+/* ---------------- Login Card ---------------- */
+
+.login-box {
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+/* ---------------- Tables ---------------- */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+/* ---------------- Dashboard ---------------- */
+
+.dashboard-title{
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:#2563EB;
+
+}
+
+.section-title{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#111827;
+
+}
+
+/* ---------------- Divider ---------------- */
+
+hr{
+
+    border:1px solid #E5E7EB;
+
+}
+
+/* ================= TEXT COLOR FIX ================= */
+
+div[data-testid="stMetricLabel"]{
+    color:#111827 !important;
+}
+
+div[data-testid="stMetricValue"]{
+    color:#111827 !important;
+    font-weight:bold !important;
+}
+
+.stMarkdown{
+    color:#111827 !important;
+}
+
+label{
+    color:#111827 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#111827 !important;
+}
+
+/* ==========================================================
+   CHAT INPUT TEXT FIX
+========================================================== */
+
+div[data-testid="stChatInput"] textarea,
+div[data-testid="stChatInput"] input {
+    color: #111827 !important;
+    background: #FFFFFF !important;
+    caret-color: #111827 !important;
+}
+
+div[data-testid="stChatInput"] textarea::placeholder,
+div[data-testid="stChatInput"] input::placeholder {
+    color: #6B7280 !important;
+    opacity: 1 !important;
+}
+
+div[data-testid="stChatInput"] button {
+    background: #2563EB !important;
+    color: white !important;
+}
+
+div[data-testid="stChatInput"] button:hover {
+    background: #1D4ED8 !important;
+}

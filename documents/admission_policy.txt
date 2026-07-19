@@ -1,0 +1,15 @@
+Hospital Admission Policy
+
+Patients must provide a valid government-issued ID during admission.
+
+Emergency patients receive immediate treatment before completing paperwork.
+
+Every patient receives a unique Patient ID.
+
+The assigned doctor performs an initial assessment.
+
+Room allocation depends on availability and medical condition.
+
+Visitors are allowed only during designated visiting hours.
+
+Patients must complete insurance verification before discharge.
